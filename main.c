@@ -19,5 +19,6 @@ int main(int ac, char **argv)
 	getline(&lineptr, &n, stdin);
 	printf("%s\n", lineptr);
 	free(lineptr);
+	shell_loop();
 	return (0);
 }
