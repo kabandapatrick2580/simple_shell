@@ -1,18 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - function
+ * main - program to print
  *
  * Return: 0 always success
  */
 int main(void)
 {
-	int y = 2023;
-	int *p = &y;
-
-	printf("%d", y);
-	printf("%p", *p);
+	printf("We want to Do Hard Things in this ALX program");
 
 	return (0);
 }
