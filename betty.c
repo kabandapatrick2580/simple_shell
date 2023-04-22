@@ -12,7 +12,7 @@ int main(void)
 	int *p = &y;
 
 	printf("%d", y);
-	printf("%d", *p);
+	printf("%p", *p);
 
 	return (0);
 }
