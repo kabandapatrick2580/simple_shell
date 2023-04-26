@@ -7,7 +7,7 @@
 void shell_loop(void)
 {
 	char *prompt = "(simple_shell) $)";
-	char *lineptr;
+	char *lineptr = NULL;
 	size_t n = 0;
 	ssize_t read;
 	int status;
@@ -24,6 +24,7 @@ void shell_loop(void)
 		}
 		lineptr[read - 1] = '\0';
 		status = execute_command(lineptr);
+		status = execute_command2(lineptr);
 
 		if (status == -1)
 		{
