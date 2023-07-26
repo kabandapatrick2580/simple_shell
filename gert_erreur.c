@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * get_feel_error2 - calls the error according the builtin, syntax or permission
+ * get_feel_error2 - calls the error according the builtin,
+ * syntax or permission
  * @cowsh: data structure that contains arguments
  * @cat2: error value
  * Return: error
