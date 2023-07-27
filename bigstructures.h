@@ -13,13 +13,13 @@
  */
 typedef struct data_cliff
 {
-    char **evr;
-    char *mettre;
-    char **kwargs;
-    int guys;
-    int compteur;
-    char **evision;
-    char *id_pid;
+	char **evr;
+	char *mettre;
+	char **kwargs;
+	int guys;
+	int compteur;
+	char **evision;
+	char *id_pid;
 } datacliff;
 
 /**
@@ -30,8 +30,8 @@ typedef struct data_cliff
  */
 typedef struct blame_lists_q
 {
-    char separateur;
-    struct blame_lists_q *suivant;
+	char separateur;
+	struct blame_lists_q *suivant;
 } blame_lists;
 
 /**
@@ -42,8 +42,8 @@ typedef struct blame_lists_q
  */
 typedef struct ligna_lista_s
 {
-    char *ligna;
-    struct ligna_lista_s *suivant;
+	char *ligna;
+	struct ligna_lista_s *suivant;
 } ligna_lista;
 
 /**
@@ -56,10 +56,10 @@ typedef struct ligna_lista_s
  */
 typedef struct qr_var_liste
 {
-    int blop_var;
-    char *blopval;
-    int blop_val;
-    struct qr_var_liste *suivant;
+	int blop_var;
+	char *blopval;
+	int blop_val;
+	struct qr_var_liste *suivant;
 } qr_var;
 
 /**
@@ -69,8 +69,8 @@ typedef struct qr_var_liste
  */
 typedef struct bare_built
 {
-    char *nom;
-    int (*f)(datacliff *rndsh);
+	char *nom;
+	int (*f)(datacliff *rndsh);
 } bare_b;
 
 #endif /* _BIGSTRUCTURES_H_ */
