@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * concat_error_message - function that concatenates the message for cd error
+ * concat_error_message - function that
+ * concatenates the message for cd error
  *
  * @rndsh: data relevant (directory)
  * @msg: message to print
@@ -9,7 +10,8 @@
  * @line_counter: counter lines
  * Return: error message
  */
-char *concat_error_message(datacliff *rndsh, char *msg, char *error, char *line_counter)
+char *concat_error_message(datacliff *rndsh, char *msg, char *error,
+		char *line_counter)
 {
 	char *illegal_flag;
 
