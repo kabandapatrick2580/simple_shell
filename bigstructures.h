@@ -13,7 +13,6 @@
  */
 typedef struct data_cliff
 {
-<<<<<<< HEAD
 	char **evr;
 	char *mettre;
 	char **kwargs;
@@ -21,15 +20,6 @@ typedef struct data_cliff
 	int compteur;
 	char **evision;
 	char *id_pid;
-=======
-char **evr;
-char *mettre;
-char **kwargs;
-int guys;
-int compteur;
-char **evision;
-char *id_pid;
->>>>>>> d05df4752c58464c536bca0c3af72152bc99b2c2
 } datacliff;
 
 /**
@@ -40,13 +30,8 @@ char *id_pid;
  */
 typedef struct blame_lists_q
 {
-<<<<<<< HEAD
 	char separateur;
 	struct blame_lists_q *suivant;
-=======
-char separateur;
-struct blame_lists_q *suivant;
->>>>>>> d05df4752c58464c536bca0c3af72152bc99b2c2
 } blame_lists;
 
 /**
@@ -57,13 +42,8 @@ struct blame_lists_q *suivant;
  */
 typedef struct ligna_lista_s
 {
-<<<<<<< HEAD
 	char *ligna;
 	struct ligna_lista_s *suivant;
-=======
-char *ligna;
-struct ligna_lista_s *suivant;
->>>>>>> d05df4752c58464c536bca0c3af72152bc99b2c2
 } ligna_lista;
 
 /**
@@ -76,17 +56,10 @@ struct ligna_lista_s *suivant;
  */
 typedef struct qr_var_liste
 {
-<<<<<<< HEAD
 	int blop_var;
 	char *blopval;
 	int blop_val;
 	struct qr_var_liste *suivant;
-=======
-int blop_var;
-char *blopval;
-int blop_val;
-struct qr_var_liste *suivant;
->>>>>>> d05df4752c58464c536bca0c3af72152bc99b2c2
 } qr_var;
 
 /**
@@ -96,13 +69,8 @@ struct qr_var_liste *suivant;
  */
 typedef struct bare_built
 {
-<<<<<<< HEAD
 	char *nom;
 	int (*f)(datacliff *rndsh);
-=======
-char *nom;
-int (*f)(datacliff *rndsh);
->>>>>>> d05df4752c58464c536bca0c3af72152bc99b2c2
 } bare_b;
 
 #endif /* _BIGSTRUCTURES_H_ */
